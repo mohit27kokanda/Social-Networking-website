@@ -1,0 +1,75 @@
+	<style>	
+		body{
+			background-image: url(rocks.jpg);
+			background-size: cover;
+			font-family: verdana;
+			font-size: 20px;
+			margin: 0;
+			line-height: 24px;
+		}
+		.navbar{
+			text-align:center;
+			width: 100%;
+			background:rgba(16,255,0,0.5);
+
+		}
+		.navbar ul{
+			margin: 0;
+          padding: 0;
+          list-style: none;
+          position: relative;
+
+		}
+		.navbar ul li a{
+			display: block;
+			padding: 25px;
+			color: white;
+			text-decoration: none;
+			width: 150px;
+
+		}
+		.navbar ul:after {
+			content: ""; clear:both;
+			display: block;
+		}
+.navbar ul li{
+	float:left;
+	list-style: none;
+}
+.navbar ul ul{
+	display: none;
+}
+.navbar ul li:hover>ul{
+	display: block;
+}
+.navbar ul li:hover{
+	background: rgba(255,239,0,0.5);
+	transition: 0.9s;
+}
+.navbar ul li:hover a{
+	color: white;
+}
+.navbar ul ul {
+	background: rgba(255,239,0,0.5);
+	padding: 0px;
+	margin: 0px;
+	position: absolute; top: 100%;
+}
+.navbar ul ul li {
+	float: none;
+	position: relative;
+
+}
+.navbar ul ul li a{
+	padding: 25px;
+	color: white;
+	width: 300px;
+	text-align: left;
+}
+.navbar ul ul li a:hover{
+	background: lightblue;
+	color: black;
+	transition: 0.9s;
+}
+
+</style>

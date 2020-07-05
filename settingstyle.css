@@ -1,0 +1,145 @@
+#center{
+	width: 700px;
+	height: 980px;
+	margin-left:  25%;
+	margin-top: -150px;
+	margin-bottom: 1%;
+	border: 2px solid orange;
+	background-color: black;
+	border-radius: 20px;
+	position: relative;
+	top: 100px;
+}
+.profile{
+	width: 250px;
+	height: 250px;
+	padding: 2% 31%;
+	border-radius: 50%;
+}
+.name{
+	font-size: 20px;
+	display: inline-block;
+	color: orange;
+}
+.name:hover{
+	color: yellow;
+	text-decoration: underline;
+
+}
+.line{
+	border: 1px solid orange;
+}
+#center p{
+	display: inline-block;
+	font-size: 17px;
+	margin-left: 10px;
+	color: orange;
+	font-family: verdana;
+}
+.inputname{
+	border: none ;
+	border-bottom: 1px solid orange; 
+	margin-left: 300px;
+	width: 200px;
+	background:black;
+	color: orange;
+}
+.email{
+	border: none ;
+	border-bottom: 1px solid orange; 
+	margin-left: 315px;
+	width: 200px;
+	background:black;
+	color: orange;
+}
+#center input[type="password"]{
+	border: none ;
+	border-bottom: 1px solid orange; 
+	margin-left: 305px;
+	width: 200px;
+	background:black;
+	color: orange;
+}
+.number{
+	border: none ;
+	border-bottom: 1px solid orange; 
+	margin-left: 245px;
+	width: 200px;
+	background:black;
+	color: orange;
+}
+.address{
+	border: none ;
+	border-bottom: 1px solid orange; 
+	margin-left: 316px;
+	width: 200px;
+	background:black;
+	color: orange;
+}
+#clr {
+	text-decoration: none;
+	color: orange;
+}
+#clr:hover{
+	color: yellow;
+	text-decoration: underline;
+}
+#center button[type="submit"]{
+	border-radius: 20px;
+	height: 40px;
+	width: 130px;
+	color: white;
+	background-color: orange;
+	border: none;
+	font-size: 20px;
+	font-family: verdana;
+	margin-left: 20px;
+}
+#center button[type="reset"]{
+	border-radius: 20px;
+	height: 40px;
+	width: 200px;
+	color: white;
+	background-color: orange;
+	border: none;
+	font-size: 20px;
+	margin-left: 50px;
+	font-family: verdana;
+}
+#center button:hover{
+	background-color: yellow;
+	color: black;
+
+}
+.dactive{
+text-decoration: none;
+font-size: 28px;
+font-family: verdana;
+font-weight: bold;
+ height: 90px;
+margin-top: 20px;
+margin-left: 1152px;	
+
+	background-color:#FCFF94;
+	line-height: 90px;
+	text-align: center;
+	color:black;	
+	width: 23%;
+	border-radius:60px;
+	
+	
+}
+#logo{
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	margin-top: -20px;
+	margin-left:  10px;
+	position:fixed;
+}
+ #logo:hover{
+	width: 260px;
+	height: 260px;
+	transition: 2s;
+
+}
